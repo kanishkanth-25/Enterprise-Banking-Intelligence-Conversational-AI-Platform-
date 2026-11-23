@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+frontend/node_modules/
+frontend/.next/
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+*.log
+backend/*.db
+vector_indexes/
+data/
+/frontend/.git.backup/
